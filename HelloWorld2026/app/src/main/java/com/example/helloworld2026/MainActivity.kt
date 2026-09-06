@@ -16,13 +16,11 @@ import com.example.helloworld2026.ui.theme.HelloWorld2026Theme
 import androidx.compose.ui.unit.dp
 import androidx.compose.foundation.layout.Column // So I can set the text boxes under each other easily.
 import androidx.compose.material3.Button // for button
-
-import androidx.compose.foundation.layout.size
-
-
-
-// These are for the battery-% popup
 import android.content.Context
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.foundation.layout.size
+import androidx.compose.ui.platform.LocalInspectionMode
+// These are for the battery-% popup
 import android.os.BatteryManager
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.TextButton
@@ -31,7 +29,6 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
-import androidx.compose.ui.platform.LocalContext
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -53,8 +50,18 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     val context = LocalContext.current
     var showDialog by remember { mutableStateOf(false)}
-    val batteryManager = context.getSystemService(Context.BATTERY_SERVICE) as BatteryManager
-    val batteryLevel = batteryManager.getIntProperty(BatteryManager.BATTERY_PROPERTY_CAPACITY)
+    val isPreview = LocalInspectionMode.current
+
+    val batteryLevel = if (isPreview) {
+        75
+    } else {
+        val batteryManager =
+            context.getSystemService(Context.BATTERY_SERVICE) as BatteryManager
+
+        batteryManager.getIntProperty(
+            BatteryManager.BATTERY_PROPERTY_CAPACITY
+        )
+    }
 
     Column(
         modifier = modifier.padding(
