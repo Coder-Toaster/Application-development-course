@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Opintotehtävä3</string>
+    <string name="profile">Profiili</string>
+    <string name="contact_button">Ota yhteyttä</string>
+    <string name="socials_button">Somekanavat</string>
+    <string name="school_variable">Oppilaitos</string>
+    <string name="major_variable">Suuntautuminen</string>
+    <string name="intrests_variable">Akateemiset kiinnostuksen kohteet</string>
+    <string name="person_description">Opiskelen kolmatta vuotta tietoverkkotekniikkaa Tampereen ammattikorkeakoulussa. Valmistun loppuvuodesta 2027, jos kaikki menee suunnitelmien mukaan!</string>
+</resources>

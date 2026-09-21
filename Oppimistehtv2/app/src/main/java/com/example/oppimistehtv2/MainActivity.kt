@@ -1,7 +1,5 @@
 package com.example.oppimistehtv2
 
-import android.R.attr.padding
-import android.R.attr.text
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -25,7 +23,6 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -154,10 +151,8 @@ fun ProfileContent(
         modifier = modifier.fillMaxSize().padding(horizontal = 16.dp, vertical = 20.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
-        ElevatedCard(modifier = Modifier.fillMaxWidth())
-        {
-            Column (modifier = Modifier.padding(16.dp))
-            {
+        ElevatedCard(modifier = Modifier.fillMaxWidth()) {
+            Column (modifier = Modifier.padding(16.dp)) {
                 ProfileHeader(
                     name = "Patrik Verho",
                     role = "Networking technologies student",
