@@ -97,9 +97,7 @@ fun ProfileScreen (
                             modifier = Modifier.size(18.dp)
                         )
                     }
-
                     Spacer(modifier = Modifier.padding(end=1.dp))
-
                     IconButton(
                         onClick= {
                             // Login functionality -> Open new activity
@@ -179,10 +177,9 @@ fun ProfileHeader(
         ) {
             Image(
                 painterResource(id = R.drawable.cat_5968876_960_720),
-                contentDescription = "Profile picture of me",
+                contentDescription = "nekomachines https://pixabay.com/illustrations/cat-kitten-pet-brown-cat-kitty-5968876/",
                 modifier = Modifier.size(64.dp),
                 contentScale = ContentScale.Crop
-
             )
 
             Spacer(modifier = Modifier.width(2.dp))
