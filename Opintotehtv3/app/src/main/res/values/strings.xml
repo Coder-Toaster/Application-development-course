@@ -5,6 +5,20 @@
     <string name="socials_button">Socials</string>
     <string name="school_variable">School</string>
     <string name="major_variable">Major</string>
-    <string name="intrests_variable">Academic Intrests</string>
+    <string name="intrests_variable">Academic interests</string>
     <string name="person_description">I am studying 3rd year Networking technologies at Tampere University of Applied Sciences. I am going to graduate in late 2027 if everything goes as planned!</string>
+    <string name="profiles_title">Student profiles</string>
+    <string name="search_label">Search profiles</string>
+    <string name="clear_search">Clear search</string>
+    <string name="available_only">Only available for projects</string>
+    <string name="available_for_projects">Available for projects</string>
+    <string name="unavailable_for_projects">Not currently available</string>
+    <string name="profiles_count">Profiles shown: %1$d / %2$d</string>
+    <string name="no_matching_profiles">No profiles match your search and filter. Try another search or turn off the availability filter.</string>
+    <string name="navigate_back">Back to profiles</string>
+    <string name="profile_not_found">This profile could not be found. Use the back button to return to the list.</string>
+    <string name="aino_description">Aino is a fictional student profile for this exercise. She enjoys building Android applications and making interfaces accessible to everyone.</string>
+    <string name="mikko_description">Mikko is a fictional student profile for this exercise. He works with Linux and cloud services and is currently busy with another project.</string>
+    <string name="sara_description">Sara is a fictional student profile for this exercise. She is interested in protecting networks and would like to join a cybersecurity project.</string>
+    <string name="elias_description">Elias is a fictional student profile for this exercise. He enjoys mobile development and testing and is currently focusing on his studies.</string>
 </resources>

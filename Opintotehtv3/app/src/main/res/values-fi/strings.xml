@@ -8,4 +8,18 @@
     <string name="major_variable">Suuntautuminen</string>
     <string name="intrests_variable">Akateemiset kiinnostuksen kohteet</string>
     <string name="person_description">Opiskelen kolmatta vuotta tietoverkkotekniikkaa Tampereen ammattikorkeakoulussa. Valmistun loppuvuodesta 2027, jos kaikki menee suunnitelmien mukaan!</string>
+    <string name="profiles_title">Opiskelijaprofiilit</string>
+    <string name="search_label">Hae profiileja</string>
+    <string name="clear_search">Tyhjennä haku</string>
+    <string name="available_only">Vain projekteihin käytettävissä olevat</string>
+    <string name="available_for_projects">Käytettävissä projekteihin</string>
+    <string name="unavailable_for_projects">Ei tällä hetkellä käytettävissä</string>
+    <string name="profiles_count">Näytetään %1$d / %2$d profiilia</string>
+    <string name="no_matching_profiles">Yksikään profiili ei vastaa hakua ja suodatinta. Kokeile toista hakusanaa tai poista käytettävyysrajaus.</string>
+    <string name="navigate_back">Takaisin profiileihin</string>
+    <string name="profile_not_found">Profiilia ei löytynyt. Palaa listaan takaisin-painikkeella.</string>
+    <string name="aino_description">Aino on tämän harjoituksen kuvitteellinen opiskelijaprofiili. Hän pitää Android-sovellusten kehittämisestä ja käyttöliittymien saavutettavuudesta.</string>
+    <string name="mikko_description">Mikko on tämän harjoituksen kuvitteellinen opiskelijaprofiili. Hän työskentelee Linuxin ja pilvipalveluiden parissa ja on tällä hetkellä varattu toiseen projektiin.</string>
+    <string name="sara_description">Sara on tämän harjoituksen kuvitteellinen opiskelijaprofiili. Hän on kiinnostunut verkkojen suojaamisesta ja haluaa osallistua kyberturvallisuusprojektiin.</string>
+    <string name="elias_description">Elias on tämän harjoituksen kuvitteellinen opiskelijaprofiili. Hän pitää mobiilikehityksestä ja testaamisesta ja keskittyy tällä hetkellä opintoihinsa.</string>
 </resources>
