@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Opintotehtävä3</string>
+    <string name="profile">Profile</string>
+    <string name="contact_button">Contact me</string>
+    <string name="socials_button">Socials</string>
+    <string name="school_variable">School</string>
+    <string name="major_variable">Major</string>
+    <string name="intrests_variable">Academic Intrests</string>
+    <string name="person_description">I am studying 3rd year Networking technologies at Tampere University of Applied Sciences. I am going to graduate in late 2027 if everything goes as planned!</string>
+</resources>
